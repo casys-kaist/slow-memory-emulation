@@ -125,5 +125,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
-# Pyre type checker
-.pyre/
+*.swp
+*.swo
+
+intel-prefetch-disable
+intel-prefetch-disable.o
+membw/membw
