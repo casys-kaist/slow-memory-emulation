@@ -92,3 +92,8 @@ $ ./reset.sh
 * [Intel® Xeon® Processor E5 v4 Product Family Datasheet, Volume Two: Registers](https://en.wikichip.org/w/images/2/24/Intel_Xeon_Processor_E5_v4_Product_Family_Datasheet_Volume_2-_Registers.pdf)
 * [Quartz: A DRAM-based performance emulator for NVM](https://github.com/HewlettPackard/quartz)
 * [intel/intel-cmt-cat: membw](https://github.com/intel/intel-cmt-cat/tree/master/tools/membw)
+
+## Acknowledgement
+We thank the anonymous reviewers for their insightful feedbacks and comments. This
+work was supported by National Research Foundation of Korea (NRF-2019R1A2B5B01069816)
+and the Institute for Information & communications Technology Promotion (IITP-2017-0-00466).
