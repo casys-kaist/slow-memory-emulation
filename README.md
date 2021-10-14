@@ -6,6 +6,7 @@ a heterogeneous memory system.
 memory system. However, throttling memory bandwidth may not work if the memory bandwidth
 usage of a workload is lower than the throttled memory bandwidth. Therefore, in addition
 to memory bandwidth throttling, memory bandwidth saturation is used.
+* We borrow the core mechanism of memory bandwidth throttling from [Quartz](https://github.com/HewlettPackard/quartz).
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
