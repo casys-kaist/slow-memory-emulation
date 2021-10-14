@@ -12,8 +12,8 @@ saturation is used.
 Quartz writes a specific to a designated address (0x190 in the example below)
 to throttle the memory bandwidth.
 * We brought `membw` from [intel/intel-cmt-cat: membw](https://github.com/intel/intel-cmt-cat/tree/master/tools/membw)
-to saturate memory bandwidth. `membw` takes several arguments such as
-a core index, bandwidth to utilize, and instruction type (non-temporal instructions).
+to saturate memory bandwidth. `membw` takes several arguments such as a core index,
+bandwidth to utilize, and instruction type (non-temporal instructions).
 * This tool saturates the memory bandwidth of the second node first. After that,
 it throttles the memory bandwidth gradually. Next, it measures the memory latency
 with the Intel Memory Latency Checker (`mlc`). Throttling continues until the memory
