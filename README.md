@@ -21,6 +21,9 @@ latency reaches the target latency.
 * Please note that the PCIe register values found do not guarantee the same
 memory latency when the system reboots. We could not figure out the reason yet,
 but we had to rerun this script to find the right register value on every reboot.
+* As we throttle the memory bandwidth until the latency meets the target latency,
+this tool has a limitation that the latency and bandwidth of slow memory cannot be
+controlled simultaneously.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
