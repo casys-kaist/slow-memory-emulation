@@ -3,10 +3,11 @@
 * By slowing down the memory performance of one node in a two-socket system, it emulates
 a heterogeneous memory system. Therefore, this tool assumes a two-socket system.
 Otherwise, it will not work as expected.
-* Memory bandwidth throttling is a widely used technique to lower the performance of a
-memory system. However, throttling memory bandwidth may not work if the memory bandwidth
-usage of a workload is lower than the throttled memory bandwidth. Therefore, in addition
-to memory bandwidth throttling, memory bandwidth saturation is used.
+* Memory bandwidth throttling is a widely used technique to lower the performance
+of a memory system. However, throttling memory bandwidth may not slowdown a workload
+work if the memory bandwidth usage of the workload is lower than the throttled memory
+bandwidth. Therefore, in addition to memory bandwidth throttling, memory bandwidth
+saturation is used.
 * We borrow the core mechanism of memory bandwidth throttling from [Quartz](https://github.com/HewlettPackard/quartz).
 Quartz writes a specific to a designated address (0x190 in the example below)
 to throttle the memory bandwidth.
