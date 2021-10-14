@@ -2,6 +2,10 @@
 * This tool lets you emulate slow memory using memory bandwidth saturation and throttling.
 * By slowing down the memory performance of one node in a two-socket system, it emulates
 a heterogeneous memory system.
+* Memory bandwidth throttling is a widely used technique to lower the performance of a
+memory system. However, throttling memory bandwidth may not work if the memory bandwidth
+usage of a workload is lower than the throttled memory bandwidth. Therefore, in addition
+to memory bandwidth throttling, memory bandwidth saturation is used.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
