@@ -18,6 +18,9 @@ a core index, bandwidth to utilize, and instruction type (non-temporal instructi
 it throttles the memory bandwidth gradually. Next, it measures the memory latency
 with the Intel Memory Latency Checker (`mlc`). Throttling continues until the memory
 latency reaches the target latency.
+* Please note that the PCIe register values found do not guarantee the same
+memory latency when the system reboots. We could not figure out the reason yet,
+but we had to rerun this script to find the right register value on every reboot.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
