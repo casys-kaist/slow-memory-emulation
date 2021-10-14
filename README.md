@@ -26,6 +26,9 @@ this tool has a limitation that the latency and bandwidth of slow memory cannot 
 controlled simultaneously.
 * We had to emulate slow memory because this research was conducted when
 the Intel Optane DC was not available.
+* Although the experiment results are not publicly available, we have conducted
+the same experiments on a machine equipped with Intel Optane DC. We found that
+the overall tendency holds and the conclusion of this research is valid.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
