@@ -1,7 +1,7 @@
 # Slow Memory Emulation
 * This tool lets you emulate slow memory using memory bandwidth saturation and throttling.
 * By slowing down the memory performance of one node in a two-socket system, it emulates
-heterogeneous memory system.
+a heterogeneous memory system.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
