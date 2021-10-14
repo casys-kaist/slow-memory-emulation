@@ -11,6 +11,9 @@ saturation is used.
 * We borrow the core mechanism of memory bandwidth throttling from [Quartz](https://github.com/HewlettPackard/quartz).
 Quartz writes a specific to a designated address (0x190 in the example below)
 to throttle the memory bandwidth.
+* We brought `membw` from [intel/intel-cmt-cat: membw](https://github.com/intel/intel-cmt-cat/tree/master/tools/membw)
+to saturate memory bandwidth. `membw` takes several arguments such as
+a core index, bandwidth to utilize, and instruction type (non-temporal instructions).
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
