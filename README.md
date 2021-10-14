@@ -16,7 +16,8 @@ to saturate memory bandwidth. `membw` takes several arguments such as
 a core index, bandwidth to utilize, and instruction type (non-temporal instructions).
 * This tool saturates the memory bandwidth of the second node first. After that,
 it throttles the memory bandwidth gradually. Next, it measures the memory latency
-with the Intel Memory Latency Checker (`mlc`).
+with the Intel Memory Latency Checker (`mlc`). Throttling continues until the memory
+latency reaches the target latency.
 
 ## How to Use
 * First, choose the target idle latency that you want (300ns).
